@@ -1,0 +1,91 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+.page{
+    /* pannello nero in trasparenza */
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 170px;
+    padding-top: 80px;
+}
+
+h2{
+    color: rgba(163, 244, 41, 1.0);
+    font-weight: 350;
+    font-size: 25px;
+    font-family:'Roboto', sans-serif;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.menu, .btt{
+    /* menu con bottoni centrati */
+    background-color: rgba(163, 244, 41, 1.00);
+    margin: auto;
+    width: 700px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > section{
+    /* sezione di ogni monopattino con testo */
+    width: 700px;
+    margin: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+section > h4{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 350;
+}
+
+section > h6{
+    margin: 0;
+    font-weight: 80;
+    font-size: 15px;
+}
+
+.line1{
+    width: 300px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.line2{
+    width: 600px;
+    height: 25px;
+    background-color: rgb(0, 236, 0);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.line3{
+    width: 150px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 5px;
+}
